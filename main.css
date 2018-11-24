@@ -1,0 +1,132 @@
+@media (max-width: 480px) {
+  html{
+    width: 100%;
+  }
+
+  .customFieldset {
+    padding: 1rem 1rem 1rem 1rem;
+  }
+
+  #startbtn {
+    margin: 0px;
+    width: 40%;
+  }
+}
+@media (min-width: 481px) {
+
+.customFieldset {
+  padding: 1rem 10rem 1rem 10rem;
+  margin-top: 2rem;
+}
+}
+
+
+.deleteQuestion {
+  background-color: red;
+  margin-bottom: 1rem;
+}
+
+
+.goBack{
+  margin-right: 5px;
+}
+
+.optionButtons {
+  display: flex;
+}
+
+.loginRegister {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+}
+
+.logo {
+  display:flex;
+  justify-content: center;
+  margin: 0rem 0rem 4rem 0rem;
+  background-color: white;
+  padding: 0;
+  box-sizing: border-box;
+  width: 100%;
+}
+
+#logoImg {
+  max-width: 100%;
+  max-height: 200px;
+}
+
+.indexContent{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-style: solid;
+  border-width: 2px;
+  border-color: black;
+  background-color: white;
+  padding: 2rem;
+  color: black;
+  width: 60%;
+  opacity: .85;
+
+}
+/* h1{
+   text-shadow: 3px 3px black;
+} */
+li{
+list-style:none;
+}
+body{
+  margin: 0;
+  background-color: #79a1e5;
+  color: #eae6de;
+  font-family: 'Chakra Petch', sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+a{
+  text-decoration: none;
+   color: black;
+}
+a:visited{
+  text-decoration: none;
+   color: black;
+ }
+a:hover{
+  text-decoration: none;
+   color: lightblue;
+}
+a:active{
+  text-decoration: none;
+   color: black;
+}
+#regLogin button{
+  width: 120px;
+}
+button{
+    background-color: #eae6de;
+    border: none;
+    color: black;
+    padding: 5px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    border-radius: 4px;
+    transition-duration: 0.01s;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+button:hover{
+  color: white;
+  background-color: #38380c;
+}
+button:focus{outline:0;}
+
+.multipleChoiceQuestion{margin-bottom:3px;}
+.multipleChoiceAnswerOne{margin-bottom:3px;}
+.multipleChoiceAnswerTwo{margin-bottom:3px;}
+/* .multipleChoiceAnswerThree{margin-bottom:3px;} */
+.multipleChoiceAnswerFour{margin-bottom:3px;}
