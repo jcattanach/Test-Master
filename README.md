@@ -5,3 +5,6 @@ This project was created by Joseph Colca, Eslam Amin, Ryan Gawick, and Jack Catt
 
 
 https://test-master-app.herokuapp.com/
+
+#### Live Preview
+![Preview-Gif](https://github.com/jcattanach/Test-Master/blob/master/test-master.gif)
